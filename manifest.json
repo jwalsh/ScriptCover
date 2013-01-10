@@ -1,6 +1,7 @@
 {
   "name": "Javascript Coverage Analysis Extension",
-  "version": "1.0.0.12",
+  "version": "1.0.0.13",
+  "manifest_version": 2,
   "description": "Reports Javascript coverage statistics for web pages.",
   "background_page": "background.html",
   "content_scripts": [
