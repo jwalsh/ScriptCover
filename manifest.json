@@ -1,0 +1,27 @@
+{
+  "name": "Javascript Coverage Analysis Extension",
+  "version": "1.0.0.12",
+  "description": "Reports Javascript coverage statistics for web pages.",
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "third_party/lib/parse-js.js",
+        "third_party/lib/process.js",
+        "resources/content_compiled.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "resources/brticon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "management"
+  ]
+}

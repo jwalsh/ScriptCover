@@ -1,0 +1,69 @@
+/* Copyright 2011 Google Inc. All Rights Reserved. */
+/* Author: ekamenskaya@google.com (Ekaterina Kamenskaya) */
+
+
+.green {
+  background-color: #20A020;
+}
+
+span {
+  font-size: 11pt;
+  font-family: monospace;
+}
+
+.linenum {
+  font-weight: bold;
+}
+
+.linenum, .execs {
+  float: left;
+  min-width: 40px;
+}
+
+.coverageHead {
+  display: block;
+  cursor: hand;
+  margin: 2px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.coverageContainer {
+  width: 50%;
+  position: absolute;
+}
+
+.sourceContainer {
+  width: 49%;
+  height: 850px;
+  position: absolute;
+  right: 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scriptHead, .highlightedScriptHead {
+  cursor: hand;
+  margin: 2px;
+  padding: 2px;
+  margin-left: 30px;
+  word-wrap: break-word;
+}
+
+.highlightedScriptHead {
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+.coverageHead:hover, .scriptHead:hover {
+  text-decoration: underline;
+}
+
+.coverageBody {
+  display: block;
+}
+
+.scriptBody {
+  display: block;
+}
+

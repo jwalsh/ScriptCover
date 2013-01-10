@@ -1,0 +1,117 @@
+/* Copyright 2011 Google Inc. All Rights Reserved. */
+/* Author: ekamenskaya@google.com (Ekaterina Kamenskaya) */
+
+
+.global-coverage-current {
+  color: red;
+  font-family: Arial !important;
+  font-size: 14pt !important;
+  overflow: hidden;
+}
+
+.global-coverage-last {
+  color: black;
+  font-family: Arial !important;
+  font-size: 14pt !important;
+  overflow: hidden;
+}
+
+.see-details {
+  color: grey;
+  font-family: Arial !important;
+  font-size: 9pt !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.see-details-position {
+  position: absolute;
+  left: 18em;
+}
+
+.see-full-report {
+  color: gray;
+  font-family: Arial !important;
+  font-size: 10pt !important;
+  white-space: nowrap;
+}
+
+.see-full-report:hover {
+  color: blue;
+  font-family: Arial !important;
+  font-size: 10pt !important;
+}
+
+.command-counter {
+  color: blue;
+  font-family: Arial !important;
+  font-size: 10pt !important;
+  position: absolute;
+  text-align: center;
+  width: 20em;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.file-name {
+  font-family: Arial !important;
+  font-size: 9pt !important;
+  text-align: left;
+  position: absolute;
+  left: 5em;
+  right: 5em;
+  top: 0;
+  vertical-align: middle;
+}
+
+.blocks-stats {
+  font-family: Arial !important;
+  font-size: 9pt !important;
+  text-align: right;
+  width: 10em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.file-coverage-percent {
+  width: 4em;
+  position: absolute;
+  top: 0;
+  vertical-align: middle;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+.current-details {
+  position: absolute;
+  left: 5em;
+  right: 5em;
+  top: 0;
+  vertical-align: middle;
+}
+
+.last-details {
+  width: 7em;
+  position: absolute;
+  top: 0;
+  right: 5em;
+  vertical-align: middle;
+}
+
+.stat-line {
+  width: 500px;
+  position: relative;
+  height:1.5em;
+}
+
+.option-track {
+  position: absolute;
+  left: 2.5em;
+}
+
